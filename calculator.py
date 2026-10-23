@@ -6,3 +6,8 @@ __version__ = "0.1.0"
 def add(a, b):
     """Возвращает сумму чисел a и b."""
     return a + b
+
+
+def multiply(a, b):
+    """Возвращает произведение чисел a и b."""
+    return abs(a * b)
