@@ -26,3 +26,5 @@ jobs:
 
       - name: Run calculator
         run: python -c "import calculator; print(calculator.add(2, 3))"
+      - name: Run unit tests
+        run: python -m unittest discover -v
