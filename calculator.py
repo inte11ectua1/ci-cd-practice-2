@@ -10,4 +10,4 @@ def add(a, b):
 
 def multiply(a, b):
     """Возвращает произведение чисел a и b."""
-    return abs(a * b)
+    return a * b
